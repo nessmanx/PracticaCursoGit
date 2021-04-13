@@ -2,21 +2,38 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 6bf8701 (trabaje un poco con los menus)
 }
 html{
     font-size: 62.5%;
     background-color: rgb(54, 109, 192);
+<<<<<<< HEAD
+=======
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+>>>>>>> 6bf8701 (trabaje un poco con los menus)
 }
 
 /* * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     color: black;
     background-color: cornflowerblue;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 } */
 .encabezado{
+=======
+    background-color: cornflowerblue;
+} */
+.encabezado{
+    /* list-style: none; */
+>>>>>>> 6bf8701 (trabaje un poco con los menus)
     font-size: 3.5rem;
     width: 90%;
     height: 100px;
@@ -26,12 +43,17 @@ html{
     /* display: inline-block; */
     background-color: cornsilk;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5) ;
+<<<<<<< HEAD
     color: red;
+=======
+    /* color: red; */
+>>>>>>> 6bf8701 (trabaje un poco con los menus)
     /* font-weight: bold; */
 
 }
 .menuNavegacion{
     margin: 10px 20px 10px 20px;
+<<<<<<< HEAD
     padding: 0.5em;
     display:inline-block;
     list-style: none;
@@ -42,10 +64,52 @@ html{
 }
 .barraVertical{
     margin: 10px 0px 10px 0px;
+=======
+    /* color: aliceblue; */
+    padding: 0.5em;
+    display:inline-block;
+    /* list-style: none; */
+    background-color: blue;
+    box-shadow: 10px 20px 20px 0px rgba(0, 0, 0, 0.75) ;
+    /* color: red; */
+    font-weight: bold;
+}
+.menuNavegacion-item {
+    list-style: none;
+    display: inline-block;
+}
+
+.menuNavegacion-item a{
+    font-size: 2rem;
+    color: aliceblue;
+}
+.menuNavegacion-item a:hover{
+    color: rgb(250, 7, 7);
+    background-color: chartreuse;
+    border-radius: 3px;
+}
+.barraVertical{
+    margin: 0px 0px 10px 240px;
+    font-size: 1.5rem;
+    /* list-style: none; */
+>>>>>>> 6bf8701 (trabaje un poco con los menus)
     padding: 0.5em;
     display:inline-flex;
     background-color: blue;
     box-shadow: 10px 20px 20px 0px rgba(0, 0, 0, 0.75) ;
+<<<<<<< HEAD
     color: red;
     font-weight: bold;
+=======
+    /* color:aliceblue; */
+    font-weight: bold;
+}
+.barraVertical-item{
+    color: aliceblue;
+    list-style: none;
+}
+.barraVertical-item a{
+    list-style: none;
+    color: aliceblue;
+>>>>>>> 6bf8701 (trabaje un poco con los menus)
 }
